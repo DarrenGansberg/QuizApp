@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">QuizApp</string>
     <string name="main_activity_title">SIT305 Quiz App</string>
+    <string name="labelText_username">Enter your name:</string>
+    <string name="buttonText_start">Start</string>
+    <string name="hint_username">Your name</string>
 </resources>
