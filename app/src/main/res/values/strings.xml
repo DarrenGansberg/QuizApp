@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">QuizApp</string>
+    <string name="main_activity_title">SIT305 Quiz App</string>
 </resources>
