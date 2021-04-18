@@ -4,4 +4,15 @@
     <string name="labelText_username">Enter your name:</string>
     <string name="buttonText_start">Start</string>
     <string name="hint_username">Your name</string>
+    <string name="welcome_message">Welcome %1s!</string>
+    <string name="question_title">Question Title:</string>
+    <string name="question_text">Question Text&#8230;</string>
+    <string name="submit_button_text">Submit</string>
+    <string name="next_button_text">next</string>
+    <string name="view_quiz_result_title">Congratulations %1$s!</string>
+    <string name="your_score_text">Your Score:</string>
+    <string name="quiz_score_text">%1$d / %2$d</string>
+    <string name="new_quiz_button_text">Take New Quiz</string>
+    <string name="finish_quiz_button_text">Finish!</string>
+    <string name="progress_bar_text">%1$d / %2$d</string>
 </resources>
