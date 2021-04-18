@@ -15,19 +15,12 @@ import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
-    private int count = 0;
-    private String msg = "Bundle was not passed";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView txt = findViewById(R.id.txtUsername);
 
-        if (savedInstanceState != null)
-        {
-            msg = savedInstanceState.getString("message");
-
-        }
     }
 
     public void onStartButtonClicked(View view)
