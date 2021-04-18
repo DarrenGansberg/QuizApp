@@ -6,10 +6,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.content.res.AppCompatResources;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.LinearLayoutCompat;
+import androidx.core.content.res.ResourcesCompat;
 import androidx.core.view.ViewCompat;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
+import android.provider.FontsContract;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -530,6 +533,7 @@ public class AnswerQuestions extends AppCompatActivity {
         view.setGravity(Gravity.CENTER_HORIZONTAL|Gravity.CENTER_VERTICAL);
 
         view.setText(text);
+
         view.setBackground(AppCompatResources.getDrawable(this,R.drawable.answer_unselected_bg));
         view.setOnClickListener(this::onSelectAnswer);
         return view;
