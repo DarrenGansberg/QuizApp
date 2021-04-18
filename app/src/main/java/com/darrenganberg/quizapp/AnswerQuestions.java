@@ -111,8 +111,7 @@ public class AnswerQuestions extends AppCompatActivity {
         private String title;
         private String text;
         private List<String> answers;
-        private Integer correctAnswer;
-
+        private int correctAnswer;
 
         public QuizQuestion(@NonNull String title, @NonNull List<String> answers, @NonNull String questionText, Integer correctAnswer)
         {
