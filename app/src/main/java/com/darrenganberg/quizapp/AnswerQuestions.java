@@ -56,50 +56,57 @@ public class AnswerQuestions extends AppCompatActivity {
         private QuizQuestion getQuestion1()
         {
             Vector<String> answers = new Vector<>(3);
-            answers.add("1986");
-            answers.add("1960");
-            answers.add("1979");
-            String text = "Darren Gansberg was born in:";
-            return new QuizQuestion("Question 1", answers, text, 2);
+            String questionTitle = "Handling click events";
+            String questionText = "To handle a click event you must bind a method to:";
+            answers.add("onSlap");
+            answers.add("onClick");
+            answers.add("onDance");
+            return new QuizQuestion(questionTitle, answers, questionText, 1);
         }
 
         private QuizQuestion getQuestion2()
         {
             Vector<String> answers = new Vector<>(3);
-            answers.add("2013");
-            answers.add("2016");
-            answers.add("2017");
-            String text = "The Western Bulldogs won the AFL Premiership in:";
-            return new QuizQuestion("Question 2", answers, text, 1);
+            String questionTitle = "Starting Activities";
+            String questionText = "To start a new activity you may call:";
+            answers.add("startActivity()");
+            answers.add("newActivity()");
+            answers.add("createActivity()");
+            return new QuizQuestion(questionTitle, answers, questionText, 0);
 
         }
 
         private QuizQuestion getQuestion3()
         {
-            Vector<String> answers = new Vector<>(2);
-            answers.add("True");
-            answers.add("False");
-            String text = "Cats have fur:";
-            return new QuizQuestion("Question 3", answers, text, 0);
+            Vector<String> answers = new Vector<>(3);
+            String questionTitle = "Activity State";
+            String questionText = "To store the state of an activity, the ______ method can be overridden:";
+            answers.add("onSave");
+            answers.add("onSaveInstanceState");
+            answers.add("persistState");
+            return new QuizQuestion(questionTitle, answers, questionText, 1);
         }
 
         private QuizQuestion getQuestion4()
         {
-            Vector<String> answers = new Vector<>(2);
-            answers.add("True");
-            answers.add("False");
-            String text = "Darth Vader is Luke's father";
-            return new QuizQuestion("Question 4", answers, text, 0);
+            Vector<String> answers = new Vector<>(3);
+            String questionTitle = "TextView text";
+            String questionText = "To set the text of a TextView, call:";
+            answers.add("makeText()");
+            answers.add("textSet()");
+            answers.add("setText()");
+            return new QuizQuestion(questionTitle, answers, questionText, 2);
         }
 
         private QuizQuestion getQuestion5()
         {
             Vector<String> answers = new Vector<>(3);
-            answers.add("Trinity");
-            answers.add("LeBron James");
-            answers.add("Neo");
-            String text = "Which of the following is not a character in the Matrix:";
-            return new QuizQuestion("Question 5", answers, text, 1);
+            String questionTitle = "Centering UI elements";
+            String questionText = "To center a view within a Viewgroup within XML set ____ to center:";
+            answers.add("gravity");
+            answers.add("layout_gravity");
+            answers.add("margin");
+            return new QuizQuestion(questionTitle, answers, questionText, 1);
 
         }
 
